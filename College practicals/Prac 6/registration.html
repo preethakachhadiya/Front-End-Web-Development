@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="regstyle.css">
+</head>
+<body class="body">
+	<h1>Registration form</h1>
+	<div id="reg">
+		<form action="regpro.php" method="POST" class="reg">
+			<h2>Register Here</h2>
+
+			<label>First Name:</label><br>
+			<input type="text" name="fn" placeholder="First Name" id="name" required>
+			<br><br>
+
+			<label>Last Name:</label><br>
+			<input type="text" name="ln" placeholder="Last Name" id="name" required><br><br>
+
+			<label>Email:</label><br>
+			<input type="email" name="email" id="name" placeholder="Enter your email-id" required><br><br>
+
+			<label>Mobile Number:</label><br>
+			<input type="number" name="contact" placeholder="Contact Number" id="name" required><br><br>
+
+			<label>Date of Birth:</label><br>
+			<input type="date" name="dob" placeholder="Birth-Date" id="name" required><br><br>
+
+			<label>Gender:</label><br>
+			<input type="radio" id="ma"><span id="ma">Male</span>
+			<input type="radio" id="ma"><span id="ma">Female</span>
+			<input type="radio" id="ma"><span id="ma">Other</span><br><br>
+
+			<label>Address:</label><br>
+			<textarea name="add" id="name" placeholder="Enter Your Address" required></textarea><br><br>
+
+			<label>Password:</label><br>
+			<input type="password" name="pass" placeholder="Enter password" id="name" required><br><br>
+
+			<label>Confirm Password:</label><br>
+			<input type="password" name="cpass" placeholder="Re-Enter password" id="name" required><br><br>
+			<input type="checkbox" id="ch" required><span id="ch">I agree all terms and conditions.</span><br><br>
+
+			<button type="submit" id="sub" name="submit">Register Here</button>
+		
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<style type="text/css">
+
+		#container div {
+			box-shadow: 3px 3px 5px grey;
+		}
+
+		.name span{
+				font-size: 40px;
+				line-height: 50px;
+				font-weight: 700;
+				letter-spacing: 1px;
+				word-spacing: 10px;
+				text-transform: uppercase;
+		} 
+
+		#container .panel {
+				text-transform: uppercase;
+				text-align: center;
+				font-size: 22px;
+				font-weight: 700;
+				letter-spacing: 1px;
+				margin: 0;
+				margin-bottom: 10px;
+				padding: 0;
+				padding: 5px;
+		}
+
+		#container .contact .add, .mail, .phone {
+				float: left;
+				margin: 0;
+				padding-left: 4px;
+				padding-top: 5px;
+				padding-right: 10px;
+		}	
+
+		#container .contact p {
+			padding-top: 12px;
+			margin: 0;
+			line-height: 15px;
+			letter-spacing: 1px;
+			word-spacing: 2px;
+		}
+
+		#container .contact .facebook, .insta, .git, .linked {
+			margin-right: 25px;
+		}
+
+		#container .education p span {
+			padding-left: 50px;
+		}
+
+	</style>
+</head>
+
+<body style="font-family: Titillium Web; background-color: #999ecf; font-weight: 600; font-size: 17px;">
+
+	<div id="container" style="display: grid; grid-template-columns: repeat(3, minmax(33%, 33%));
+			grid-template-rows: repeat(9, minmax(77px, 77px)); grid-gap: 11px;
+			max-width: 1100px; margin: 0 auto;">
+		<div class="photo" style="grid-row: 1 / 4; margin: 0; padding: 25px 85px; background-color: #f06e6e;">
+			<img id="photo" src="C:\Users\PREETHA\Documents\SEM 6\WT\Prac 6\Profile Photo.jpg" style="height: 180px;
+			width: 180px; border-radius: 50% 50%; border: 5px solid #215433;">
+		</div>
+
+		<div class="name" style="background-color: #215433; color: white; grid-column: 2 / 4; text-align: center;
+			line-height: 16px;">
+			<span>Preetha Kachhadiya</span>
+			<br>
+			B.E. Information Technology
+		</div>
+
+		<div class="contact" style="background-color: white; grid-row: 4 / 8;">
+			<div class="panel" style="background-color: #215433; color: white;" >Contact</div>
+			<i class="add fas fa-home fa-2x"></i><p style="padding-top: 7px;">202, Kalash Apartment,<br>Navrangpura, Ahmedabad-06.</p><br>
+			<i class="mail fas fa-envelope fa-2x"></i><p>preethamkachhadiya@gmail.com</p><br>
+			<i class="phone fas fa-mobile-alt fa-2x" style="padding-left: 10px; padding-right: 15px;"></i><p>1234567890</p><br><br>
+			<a href="#"><i class="facebook fab fa-facebook-square fa-2x" style="margin-left: 50px; color: #3b5998;"></i></a>
+			<a href="#"><i class="insta fab fa-instagram fa-2x" style="color: #C13584;"></i></a>
+			<a href="#"><i class="git fab fa-github fa-2x" style="color: #6e5494;"></i></a>
+			<a href="#"><i class="linked fab fa-linkedin fa-2x" style="color: #0e76a8;"></i></a>
+		</div>
+
+		<div class="personal_profile" style="background-color: white; grid-row: 2 / 6;">
+			<div class="panel" style="background-color: #5eb582; color: white;">Personal profile</div>
+			<p style="padding-left: 25px; line-height: 30px; letter-spacing: 1px; word-spacing: 2px;">
+				Age : 20 Years <br>
+				Place of Birth : Ahmedabad <br>
+				Height : 5'0 <br>
+				Father : Mukesh Kachhadiya <br>
+				Mother : Geeta Kachhadiya <br>
+				Religion : Hindu <br>
+				Sex : Female <br>
+				Civil Status : Single <br>
+			</p>
+		</div>
+
+		<div class="skills" style="background-color: #74d49c; grid-row: 2 / 7;">
+			<div class="panel" style="background-color: #cf5959; color: white;">Skills</div>
+			<p style="padding-left: 25px; padding-right: 10px; margin: 0; line-height: 33px; 
+		    letter-spacing: 1px; word-spacing: 2px;">
+				Computer Literate<br>
+					<span style="padding-left: 35px;">- Web Development</span><br>
+					<span style="padding-left: 35px;">- Php, C, C++, Java, .NET</span>
+				Communication<br>
+				<i class="fas fa-code fa-3x" style="padding-right: 30px; float: right; transform: rotate(-20deg);"></i>
+				Decision Making<br>
+				Leadership<br>
+				Problem-Solving<br>
+				Team Work<br>
+				<i class="fas fa-users fa-3x" style="float: right; padding-right: 60px;"></i>
+				Active Listening<br>
+				Management Skills<br>
+				Time Management<br>
+			</p>
+		</div>
+
+		<div class="languages" style="background-color: #bbedcc; grid-row: 8 / 10;">
+			<div class="panel" style="background-color: #ab2424; color: white;">Languages</div>
+			<p style="padding-left: 40px; padding-right: 10px; margin: 0; line-height: 30px; 
+		    letter-spacing: 1px; word-spacing: 2px;">
+				<i class="fas fa-language fa-3x" style="float: right; padding-right: 80px; transform: rotate(-20deg); "></i>
+				English<br>
+				Hindi<br>
+				Gujarati<br>
+			</p>
+		</div>
+		<div class="education" style="background-color: #db7b7b; grid-row: 6 / 10;">
+			<div class="panel" style="background-color: #ab2424; color: white;">Education</div>
+			<p style="padding-left: 20px; padding-right: 10px; margin: 0; line-height: 27px; 
+		    letter-spacing: 1px; word-spacing: 2px;">
+				10th Grade : 2014-15 <br>
+				<i class="fas fa-graduation-cap fa-3x" style="float: right; padding-right: 30px; transform: rotate(15deg);"></i>
+				<span>Percentage : 87% </span><br><span> Nirman High School</span> <br>
+				12th Grade : 2016-17 <br>
+				<span>Percentage : 84% </span><br><span> Nirman High School</span> <br>
+				Bachelor of Enginnering : 2017-21 <br>
+				<span>Information Technology </span><br><span> Currenly Studying </span><br><span> GEC Gandhinagar</span>
+			</p>
+			
+
+
+		</div>
+		<div class="hobbies" style="background-color: white; grid-row: 7 / 10;">
+			<div class="panel" style="background-color: #215433; color: white;">Hobbies & Interests</div>
+			<p style="padding-left: 30px; padding-right: 10px; margin: 0; line-height: 30px; 
+		    letter-spacing: 1px; word-spacing: 2px;">
+				Listening Music <br>
+				<i class="fas fa-music fa-3x" style="float: right; padding-right: 40px; margin: 0; transform: rotate(-5deg);"></i> 
+				Dancing <br>
+				Cooking <br> 
+				Travelling <br>
+				<img src="C:\Users\PREETHA\Documents\SEM 6\WT\Prac 6\badminton.png" style="height: 55px; width: 55px; float: right; padding-right: 100px; transform: rotate(10deg);">
+				Drawing <br>
+				Badminton <br>
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
