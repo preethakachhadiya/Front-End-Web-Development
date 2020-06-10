@@ -1,0 +1,562 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #fff;
+	color: #555;
+	font-family: "Lato","Arial",sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+/*.clearfix {zoom: 1}
+.clearfix {
+	content:'.';
+	clear: both;
+	display:block;
+	height: 0;
+	visibility: hidden;
+}
+*/
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Omnifood Contents/hero.jpg");
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-text-box {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+h1 {
+	margin: 0;
+	color: #fff;
+	font-size: 200%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	margin-bottom: 18px;
+}
+
+h2 {
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 188%;
+	margin: 80px 0 30px 0;
+	text-align: center;
+}
+
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #f56200;
+	content: "";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+h3 {
+	text-transform: uppercase;
+	word-spacing: 2px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.long-copy {
+	padding: 0 15%;
+	padding-bottom: 60px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn-full,
+input[type=submit] {
+	background-color: #ff6a07; 
+	border-radius: 200px;
+	margin-right: 13px;
+}
+
+.btn-full:hover,
+input[type=submit] {
+	background-color:  #e45b00;
+	transition: background-color 0.3s, border 0.2s, color 0.4s;
+}
+
+.btn-ghost {
+	border: 1px solid #e67e22;
+	border-radius: 200px;
+	color: #e67e22;
+}
+
+.btn-ghost:hover {
+	background-color: #ff7418;
+	color: #fff;
+	transition: background-color 0.3s, border 0.2s, color 0.3s;
+}
+
+.logo {
+	width: auto;
+	height: 100px;
+	margin-top: 10px;
+	float: left;
+}
+
+.main-nav {
+	list-style: none;
+	float: right;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+
+.main-nav li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	padding-bottom: 6px;
+}
+
+.main-nav li a:hover {
+	border-bottom: 2px solid #ff7418;
+}
+
+.icon-big {
+	font-size:400%;
+	display: block;         
+	color: #ff7418;
+	padding-bottom: 15px;
+}
+
+.long-copy {
+	line-height: 30px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.span-1-of-4 p {
+	font-size: 95%;
+	padding-right: 20px;
+	line-height: 140%;
+}
+
+.section-meals {
+	padding: 0;
+}
+
+.meals-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.meals-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.meal-photo img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+	opacity: 1;
+	transform: scale(1.03);
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-steps {
+	background-color: #efefef;
+	margin-top: 30%;
+	padding-top: 120px;
+}
+
+
+.steps-box {
+	margin-top: 30px; 
+}
+
+.steps-box:first-child {
+	text-align: right;
+	padding-right: 3%;
+}
+
+.steps-box:last-child {
+	padding-left: 3%;
+	margin-top: 7%;
+}
+
+.app-screen {
+	width: 40%;
+}
+
+.works-step {
+	margin-bottom: 50px;
+} 
+
+.works-step:last-of-type {
+	margin-bottom: 80px;
+}
+
+.works-step div {
+	color: #ff7418;
+	border: 2px solid  #ff7418 ;
+	display: inline-block;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	font-size: 150%;
+	margin-right: 20px;
+}
+
+.btn-app img {
+	height: 50px;
+	/*padding-left: 10px;*/
+}
+
+.a img {
+	width: 36%;
+	height: 55px;
+	padding-left: 10px;
+	padding-top: 4px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-cities ul {
+	list-style: none;
+	padding-right: 18px;
+}
+
+.section-cities .row {
+	padding-top: 20px;
+}
+
+.thumbnail {
+	width: 100%;
+	height: auto;
+}
+
+.section-cities a {
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+.section-cities p {
+	padding-bottom: 8px;
+}
+
+.section-cities .city-name {
+	text-transform: uppercase;
+	font-size: 120%;
+	padding-top: 10px; 
+	padding-bottom: 12px;
+}
+
+.section-cities .icon-cities {
+	color: #ff7418;
+	float: left;
+	padding-right: 17px;
+	font-size: 120%;
+}
+
+.section-cities .icon-twitter:hover {
+	color:  #1da1f2
+}
+
+.section-cities .twitter {
+	border-bottom: 1px solid #ff7418;
+	/*text-underline-position: under;*/
+	color: #ff7418;
+}
+
+.section-cities .twitter:hover {
+	border-bottom: 0px;
+	color: #555;
+} 
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-testimonials {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("Omnifood Contents/back-customers.jpg");
+	background-size: cover;
+	/*background-position: ;*/
+	background-attachment: fixed;
+	color: white;
+	padding-bottom: 80px;
+
+}
+
+blockquote {
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	padding-top: 53px;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 500%;
+	position: absolute;
+	padding-top: 30px;
+	top: 10px;
+	left: -5px;
+	display: block;
+}
+
+cite {
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+}
+
+
+
+cite img {
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-plans {
+	background-color: #f4f4f4;
+	padding-bottom: 80px;
+}
+
+.section-plans h3{
+	padding-top: 15px;
+}
+
+.plan-box {
+	background-color: white;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.section-plans .plan-price {
+	font-size: 300%;
+	font-weight: 100;
+	color: #ff7418;
+	padding-bottom: 15px;
+}
+
+.section-plans .plan-price-meal {
+	font-size: 80%;
+	padding-bottom: 15px;
+}
+
+.section-plans ul {
+	list-style: none;
+	padding: 15px 0;
+	padding-right: 20px;
+
+}
+
+.section-plans ul li {
+	line-height: 35px;
+}
+
+.section-plans .icon-plans {
+	color: #ff9118;
+	font-size: 125%;
+	padding: 0 20px;
+	vertical-align: middle;
+}
+
+.section-plans btn-full,btn-ghost {
+	display: block;
+}
+
+.section-plans .span-1-of-3 div {
+	border-bottom: 1px solid #e8e8e8;
+	padding-left: 8px;
+}
+
+.section-plans a {
+	margin: 15px 0;
+	margin-left: 60px;
+}
+
+.section-plans .plan-price span {
+	font-size: 35%;
+	font-weight: 300;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-info {
+	padding-bottom: 75px;
+}
+
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+	line-height: 40px;
+}
+
+input[type=text],
+select[type=email],
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	height: 40px;
+	font-weight: 300;
+}
+
+
+textarea {
+	height: 100px;
+}
+
+input[type=submit] {
+	padding: 10px 35px;
+	border: 1px solid #ff9118;
+	color: white;
+	font-weight: 300;
+}
+
+input[type=submit]:hover {
+	background-color: #f58000;
+	transform: 0.5s;
+}
+
+select {
+	font-weight: 300;
+	width: 100%;
+	height: 40px;
+}
+
+input[type=checkbox] {
+	margin-right: 8px;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-footer {
+	background-color: #2a2a2a;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	color: #a9a9a9;
+}
+
+.section-footer .nav-footer {
+	padding-bottom: 40px;
+}
+
+.section-footer a {
+	text-decoration: none;
+	color: #a9a9a9;
+}
+
+.section-footer .left {
+	float: left;
+	padding-right: 20px;
+	font-size: 80%;
+}
+
+.section-footer .right {
+	float: right;
+	padding-left: 25px;
+	font-size: 130%;
+}
+
+.section-footer .left:hover {
+	color: white;
+}
+
+.section-footer .fb:hover {
+	color:  #3b5998;
+}
+
+.section-footer .twitter:hover {
+	color:  #1da1f2;
+} 
+
+.section-footer .google:hover {
+	color: #DD4B39 ;
+} 
+
+.section-footer .insta:hover {
+	color: #3f729b;
+} 
+
+.section-footer p{
+	text-align: center;
+	font-size: 80%;
+}
